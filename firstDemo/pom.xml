@@ -4,6 +4,7 @@
   <artifactId>firstDemo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>MavenDemo</name>
+  
   <dependencies>
   <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
 <dependency>
@@ -27,7 +28,16 @@
     <version>2.17.1</version>
 </dependency>
 
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.19</version>
+        </dependency>
+
+
   </dependencies>
+  
   <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
